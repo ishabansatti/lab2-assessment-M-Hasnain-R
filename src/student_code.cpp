@@ -24,7 +24,7 @@ char getCharValue() {
 
 int convertFloatToInt(float value) {
     // convert value to int.
-    value (static_cast<int>(value)*10)/10;
+    value = (static_cast<int>(value)*10)/10;
     return value;
 }
 
